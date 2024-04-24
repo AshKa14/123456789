@@ -63,7 +63,7 @@ public class Destroyer : MonoBehaviour
                     if (colliderA.Type == CustomCollider.ColliderType.Asteroid && colliderB.Type == CustomCollider.ColliderType.Asteroid)
                         continue;
 
-                    Debug.Log($"Collision between {colliderA.Type} and {colliderB.Type}");
+                   // Debug.Log($"Collision between {colliderA.Type} and {colliderB.Type}");
 
                 }
 

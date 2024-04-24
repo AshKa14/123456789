@@ -15,11 +15,27 @@ public class ReloadGame : MonoBehaviour
 
         StreamReader streamReader = new StreamReader(path);
 
+        // Create a list to store the scores
+       // List<string> scoretext = new List<string>();
+        List<int> scores = new List<int>();
+
         string line = streamReader.ReadLine();
         while (!string.IsNullOrEmpty(line))
         {
-            Debug.Log(line);
+            // Convert the score from string to int and add it to the list
+
+            scores.Add(int.Parse(line));
             line = streamReader.ReadLine();
+        }
+
+        // Sort the scores in descending order
+        scores.Sort();
+        scores.Reverse();
+
+        // Iterate through the sorted scores and print them to the console
+        foreach (var score in scores)
+        {
+            Debug.Log(score);
         }
 
     }

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<ArrayOfScore xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Score>
+    <name>Andres</name>
+    <score>300</score>
+  </Score>
+  <Score>
+    <name>Mauro</name>
+    <score>1000</score>
+  </Score>
+  <Score>
+    <name>Felipe</name>
+    <score>100</score>
+  </Score>
+  <Score>
+    <name>Pedro</name>
+    <score>130</score>
+  </Score>
+</ArrayOfScore>

@@ -39,7 +39,7 @@ public class UIManager : MonoBehaviour
     }
     public void HideLive (int index)
     {
-        Debug.Log(index);
+       // Debug.Log(index);
         LivesIcons[index].enabled = false;
     }
 
